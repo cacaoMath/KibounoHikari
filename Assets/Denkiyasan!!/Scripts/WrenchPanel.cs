@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WrenchPanel : MonoBehaviour
 {
+    //プレイヤーの体力表示部分の制御
     public GameObject[] icons;
     public void UpdateWrench(int wrench)
     {

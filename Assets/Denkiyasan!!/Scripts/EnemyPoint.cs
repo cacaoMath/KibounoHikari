@@ -6,6 +6,8 @@ public class EnemyPoint : MonoBehaviour
 {
     public GameObject prefab;
 
+    //敵出現の座標を生成
+
     // Start is called before the first frame update
     void Start()
     {

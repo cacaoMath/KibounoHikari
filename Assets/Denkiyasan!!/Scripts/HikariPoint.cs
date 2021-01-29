@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HikariPoint : MonoBehaviour
 {
+    //ゲーム上に出現する黄色い"ヒカリ"の出現座標の生成用
     public GameObject prefab;
 
     // Start is called before the first frame update

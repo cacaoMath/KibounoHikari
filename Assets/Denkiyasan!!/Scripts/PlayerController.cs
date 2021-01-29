@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    //プレイヤーの操作，動きを制御するクラス
+
     const int MaxX = 2;
     const int MinX = -2;
     const float Xwidth = 1.0f;
@@ -75,7 +77,7 @@ public class PlayerController : MonoBehaviour
         return invincibleTime > 0.0f;
     }
 
-    public bool IsStan()
+    public bool IsStan()//敵にぶつかると止まる
     {
         return recoverTime > 0.0f || life <= 0 || lightController.IsBlackOut();//暗くなっても止まる
     }
@@ -115,12 +117,14 @@ public class PlayerController : MonoBehaviour
 
             }
 
+            //自動で前に進んでいく
             moveDirection.z = speedZ;
 
             float ratioX = (targetX * Xwidth - transform.position.x) / Xwidth;
             moveDirection.x = ratioX * speedX;
         }
 
+        //自由落下計算
         moveDirection.y -= gravity * Time.deltaTime;
 
         Vector3 globalDirection = transform.TransformDirection(moveDirection);

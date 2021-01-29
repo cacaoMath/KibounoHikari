@@ -14,6 +14,7 @@ public class Flashing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //色を点滅させる用
         if (controller.IsInvicible())
         {
             Material material = GetComponent<Renderer>().material;

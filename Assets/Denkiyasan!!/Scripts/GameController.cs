@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
+    //ゲーム上の主な動きをつかさどるクラス
+
     int score = 0;
 
     public PlayerController playerController;
@@ -23,6 +25,7 @@ public class GameController : MonoBehaviour
         lightGazeText.text = lightController.GetLightGaze() + "%";
         wrenchPanel.UpdateWrench(playerController.Life());
 
+        //ゲームオーバーで画面遷移等の処理
         if(playerController.Life() <= 0 || lightController.IsBlackOut())
         {
             bgm.Stop();

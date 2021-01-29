@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class HikariMotion : MonoBehaviour
 {
+    //ゲーム上の黄色いやつ"ヒカリ"のアニメーション等の制御
+
+
     Collider collider;
     Animator animator;
     // Start is called before the first frame update

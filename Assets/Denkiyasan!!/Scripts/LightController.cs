@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LightController : MonoBehaviour
 {
+    // ゲームの明るさを制御するクラス
+
     const float LightMaxGaze = 110;
 
     public float rotateSpeed = 5f;
@@ -33,7 +35,7 @@ public class LightController : MonoBehaviour
        
         //Debug.Log(transform.localEulerAngles.x);
 
-        
+        //ゲーム内の照明を動かすことで，画面の明るさを調整する回転角は手動で設定
         if (transform.localEulerAngles.x +360 <= 450)
         {
             transform.Rotate(Vector3.right * rotateSpeed * Time.deltaTime);
@@ -49,6 +51,7 @@ public class LightController : MonoBehaviour
             blackOut = true;
         }
 
+        //プレーヤーが"ヒカリ"をとるとゲーム照明を明るくする．
         if (playerController.IsGetHikari() && (transform.localEulerAngles.x < 90 - getRotateSpeed || (transform.localEulerAngles.x <= 360 && transform.localEulerAngles.x > 340)))
         {
 

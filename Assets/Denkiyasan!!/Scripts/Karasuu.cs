@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Karasuu : MonoBehaviour
 {
+    //ゲーム上の敵に当たった時のSE再生用
+
     AudioSource audio;
     // Start is called before the first frame update
     void Start()

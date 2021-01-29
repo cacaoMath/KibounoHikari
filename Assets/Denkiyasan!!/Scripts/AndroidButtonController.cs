@@ -8,6 +8,7 @@ public class AndroidButtonController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Androidで起動した際に補助操作ボタンを表示する．
         if(Application.platform == RuntimePlatform.Android)
         {
             androidButoon.SetActive(true);

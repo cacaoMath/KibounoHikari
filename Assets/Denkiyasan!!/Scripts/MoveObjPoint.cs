@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MoveObjPoint : MonoBehaviour
 {
+    //動く敵の座標計算用
+
     Transform obj;
     float speed = 0.01f;
     // Start is called before the first frame update
