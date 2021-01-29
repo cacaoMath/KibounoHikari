@@ -1,7 +1,7 @@
 # KibounoHikari
   
 ![iconVer0 1](https://user-images.githubusercontent.com/53263220/106232935-a15f4c80-6238-11eb-93ef-95b9fe3da163.png)
-
+![希望のヒカリ説明](https://user-images.githubusercontent.com/53263220/106233219-5abe2200-6239-11eb-81a9-531351549f00.jpg)
 ## 作品情報
 [希望のヒカリはここから遊べます](https://unityroom.com/games/kibou-no-hikari)  
 #Unity1weekというイベントに参加したときの作品です.  
