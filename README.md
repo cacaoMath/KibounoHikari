@@ -1,6 +1,7 @@
 # KibounoHikari
   
 ![iconVer0 1](https://user-images.githubusercontent.com/53263220/106232935-a15f4c80-6238-11eb-93ef-95b9fe3da163.png)
+![Videotogif](https://user-images.githubusercontent.com/53263220/106355098-482b1200-6339-11eb-90db-8c7252d48666.gif)
 
 ## 作品情報
 [希望のヒカリはここから遊べます](https://unityroom.com/games/kibou-no-hikari)  
