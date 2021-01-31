@@ -15,4 +15,8 @@
 自身が書いたプログラムは **Assets/Denkitasan!!/Scripts** 内にあります．
 また，プログラム以外にも今回私が作成した，3dモデルなどの素材は Assets/Denkitasan!!/ 以下のフォルダにあります．
 
-## Assets/Denkitasan!!/　以下の構成
+## Assets/Denkitasan!!/Scripts内のソースコード構成
+ - EnemyPoint.cs, HikariPoint.cs, MoveObjPoint.cs : キャラ出現座標操作系
+ - Flashing.cs, HikariMotion.cs, Karasuu.cs, PlayerController.cs : 各キャラクターの動きをつけるもの
+ - GameController.cs, LightController.cs, LineController.cs, StageGenerator.cs, TitleController.cs, WrenchPanel.cs : ゲーム環境操作系  
+ 
